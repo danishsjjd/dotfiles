@@ -1,0 +1,7 @@
+[delta]
+    dark = true
+    line-numbers = true
+    navigate = true
+    side-by-side = false
+    syntax-theme = Catppuccin Mocha
+    hunk-header-style = file line-number syntax

@@ -1,0 +1,8 @@
+[tools]
+bun = "latest"
+node = "lts"
+pnpm = "latest"
+
+[settings]
+auto_install = true
+use_versions_host_track = false

@@ -1,0 +1,16 @@
+onboarding = false
+
+[terminal]
+default_shell = "fish"
+
+[ui.toast]
+delivery = "herdr"
+
+[keys]
+navigate_workspace_up = "k"
+navigate_workspace_down = "j"
+open_worktree = "prefix+shift+o"
+remove_worktree = "prefix+shift+backspace"
+
+[ui]
+status_indicators = "symbols"

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "workbench.action.files.revert"
+  },
+  {
+    "key": "cmd+q",
+    "command": "-workbench.action.quit"
+  }
+]
