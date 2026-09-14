@@ -1,13 +1,11 @@
 theme = Catppuccin Mocha
 
-background-opacity = 0.9
-background-blur-radius = 20
-
 font-family = "Hack Nerd Font"
 font-size = 21
 
 cursor-style = block
-cursor-style-blink = true
+cursor-style-blink = false
+shell-integration-features = no-cursor
 
 macos-option-as-alt = left
 keybind = alt+left=unbind
