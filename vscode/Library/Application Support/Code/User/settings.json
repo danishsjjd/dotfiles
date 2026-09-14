@@ -16,7 +16,7 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
 
   "files.readonlyInclude": {
-    "node_modules/**": true
+    "node_modules/**": true,
   },
   "files.exclude": {
     "**/__pycache__": true,
@@ -28,7 +28,7 @@
     "**/.nox": true,
     "**/.pytest_cache": true,
     "**/.ruff_cache": true,
-    "**/.tox": true
+    "**/.tox": true,
   },
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "[python]": {
@@ -36,11 +36,11 @@
     "editor.wordBasedSuggestions": "off",
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
+      "source.organizeImports": "explicit",
+    },
   },
   "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
   },
   "yaml.disableSchemaDetection": [
     "**/.github/workflows/*.yml",
@@ -48,6 +48,7 @@
     "**/.gitea/workflows/*.yml",
     "**/.gitea/workflows/*.yaml",
     "**/.forgejo/workflows/*.yml",
-    "**/.forgejo/workflows/*.yaml"
-  ]
+    "**/.forgejo/workflows/*.yaml",
+  ],
+  "diffEditor.hideUnchangedRegions.enabled": true,
 }
