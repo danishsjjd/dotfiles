@@ -16,7 +16,6 @@ alias g git
 alias pn pnpm
 alias c code
 alias o open
-command -qv bat && alias cat bat
 command -qv nvim && alias vim nvim
 alias cc! "claude --dangerously-skip-permissions"
 alias gpt! "codex --yolo"
