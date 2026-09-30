@@ -51,4 +51,8 @@
     "**/.forgejo/workflows/*.yaml",
   ],
   "diffEditor.hideUnchangedRegions.enabled": true,
+  "remote.SSH.useExecServer": false,
+  "remote.SSH.remotePlatform": {
+    "omarchy": "linux",
+  },
 }
