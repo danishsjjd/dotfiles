@@ -1,3 +1,6 @@
+command = /opt/homebrew/bin/fish --login --interactive
+shell-integration = fish
+
 theme = Catppuccin Mocha
 
 font-family = "Hack Nerd Font"

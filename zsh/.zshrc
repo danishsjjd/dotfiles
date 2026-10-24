@@ -50,3 +50,6 @@ source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 # Misc
 export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 eval "$(mise activate zsh)"
+
+# opencode
+export PATH=/Users/danish/.opencode/bin:$PATH
