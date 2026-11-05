@@ -13,7 +13,6 @@ set -g theme_hostname always
 alias la "ls -A"
 alias lla "ll -A"
 alias g git
-alias pn pnpm
 alias c code
 alias o open
 command -qv nvim && alias vim nvim

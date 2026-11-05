@@ -1,16 +1,56 @@
 onboarding = false
 
+[theme]
+name = "Catppuccin Mocha"
+
+[ui]
+pane_gaps = false
+hide_tab_bar_when_single_tab = true
+tab_bar_position = "bottom"
+copy_on_select = false
+window_title = "{workspace}: {terminal_title}"
+
+
+# Show terminal titles instead of agent names for all agents
+[ui.sidebar.agents]
+rows = [
+    [
+        "state_icon",
+        "machine",
+        "workspace",
+        "tab",
+    ],
+    [
+        "terminal_title_stripped",
+    ],
+]
+
 [terminal]
 default_shell = "/opt/homebrew/bin/fish"
-
-[ui.toast]
-delivery = "herdr"
+new_cwd = "follow"
 
 [keys]
-navigate_workspace_up = "k"
-navigate_workspace_down = "j"
 open_worktree = "prefix+shift+o"
 remove_worktree = "prefix+shift+backspace"
 
-[ui]
-status_indicators = "symbols"
+rename_tab = "prefix+comma"
+
+# Workspace switching
+previous_workspace = ["ctrl+shift+[", "ctrl+{"]
+next_workspace = ["ctrl+shift+]", "ctrl+}"]
+
+# Splits
+split_vertical = ["prefix+|", "prefix+%", "prefix+backslash"]
+split_horizontal = ["prefix+minus", 'prefix+"', "prefix+_"]
+
+# Open current directory
+[[keys.command]]
+key = "prefix+o"
+type = "shell"
+command = 'open "$HERDR_ACTIVE_PANE_CWD"'
+
+# Open vscode in current directory
+[[keys.command]]
+key = "prefix+e"
+type = "shell"
+command = 'code "$HERDR_ACTIVE_PANE_CWD"'

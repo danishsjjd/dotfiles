@@ -1,7 +1,12 @@
 [tools]
+bun = "latest"
+ghq = "latest"
+python = "latest"
+ruby = "latest"
+rust = "latest"
+go = "latest"
 node = "lts"
-pnpm = "latest"
 
 [settings]
-auto_install = true
 use_versions_host_track = false
+idiomatic_version_file_enable_tools = ["node"]

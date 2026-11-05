@@ -31,7 +31,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g="git"
-alias pn="pnpm"
 alias c="code"
 alias o="open"
 alias vim="nvim"
