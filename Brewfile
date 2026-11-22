@@ -30,6 +30,8 @@ brew "herdr"
 brew "jq"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Deep clean and optimize your Mac
+brew "mole"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Fast, disk space efficient package manager
@@ -48,10 +50,8 @@ brew "zoxide"
 cask "android-file-transfer"
 # Display management tool
 cask "betterdisplay"
-# Desktop password and login vault
+# Open source desktop password manager with encrypted vault and autofilling
 cask "bitwarden"
-# Data recovery software
-cask "disk-drill"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
@@ -70,6 +70,8 @@ cask "keyboardcleantool"
 cask "keycastr"
 # Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Simple application that will prevent iTunes or Apple Music from launching
 cask "notunes"
 # Knowledge base that works on top of a local folder of plain text Markdown files
